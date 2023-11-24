@@ -9,7 +9,7 @@ import sys
 SESSION = requests.Session()
 BASE_URL = 'https://www.biquge.co/'
 BOOK_ID = '21_21675/'
-BOOK = open('我在末世有套房_晨星LL.txt', 'w', encoding='utf8')
+BOOK = open('txt/我在末世有套房_晨星LL_UTF8.txt', 'w', encoding='utf8')
 COUNT = 0
 logger.remove()
 logger.add(sys.stderr, level='INFO')
